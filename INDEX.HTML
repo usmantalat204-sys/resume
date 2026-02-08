@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Amazon Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- AMAZON NAVBAR -->
+<header class="amazon-navbar">
+  <div class="nav-left">
+    <div class="logo">amazon</div>
+    <div class="location">
+      <span>Deliver to</span>
+      <strong>Pakistan</strong>
+    </div>
+  </div>
+
+  <div class="nav-search">
+    <select>
+      <option>All</option>
+      <option>Electronics</option>
+      <option>Fashion</option>
+      <option>Books</option>
+    </select>
+    <input type="text" placeholder="Search Amazon">
+    <button>🔍</button>
+  </div>
+
+  <div class="nav-right">
+    <div>
+      <a href="Hello, sign in.html">Hello, sign in</a>      
+      <strong>Account & Lists</strong>
+    </div>
+    <div>
+      <a href="return&order.html">Returns&order</a>
+    </div>
+    <div class="cart">
+      🛒 Cart <span id="count">0</span>
+    </div>
+  </div>
+</header>
+
+
+
+<!-- SLIDER -->
+<div class="slider">
+  <button class="arrow left" onclick="prevSlide()">❮</button>
+  <img id="slide" src="">
+  <button class="arrow right" onclick="nextSlide()">❯</button>
+</div>
+
+<!-- PRODUCTS -->
+<section class="products" id="products"></section>
+<!-- AMAZON FOOTER -->
+<footer class="amazon-footer">
+  <div class="footer-top">Back to top</div>
+
+  <div class="footer-links">
+    <div>
+      <h4>Get to Know Us</h4>
+      <a href="#">Careers</a>
+      <a href="#">Blog</a>
+      <a href="#">About Amazon</a>
+    </div>
+
+    <div>
+      <h4>Make Money with Us</h4>
+      <a href="#">Sell products</a>
+      <a href="#">Affiliate</a>
+      <a href="#">Advertise</a>
+    </div>
+
+    <div>
+      <h4>Amazon Payment</h4>
+      <a href="#">Amazon Pay</a>
+      <a href="#">Gift Cards</a>
+      <a href="#">Reload Balance</a>
+    </div>
+
+    <div>
+      <h4>Let Us Help You</h4>
+      <a href="#">Your Account</a>
+      <a href="#">Your Orders</a>
+      <a href="#">Help</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 Amazon Clone
+  </div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
